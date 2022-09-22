@@ -8,3 +8,4 @@ Route::get('/', function () {
 });
 
 Route::get('/register', [UsersController::class, 'create']);
+Route::post('/register', [UsersController::class, 'store']);
